@@ -17,7 +17,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Version 0.0")
+	fmt.Println("Version 0.1")
 	http.HandleFunc("/", httpRoot)
 	http.HandleFunc("/image", httpImage)
 
